@@ -1,0 +1,119 @@
+/*MAIN*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-attachment: fixed;
+    background-image: url(img/home-lockup.svg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    height: 100vh;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+html {
+    background-color: #ecf0f1;
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+}
+
+.row {
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+section {
+    padding: 80px 0;
+}
+
+
+/*TYPE*/
+
+h1 {
+    color: #8e44ad;
+    font-size: 400%;
+    font-weight: 900;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+    margin-top: 0;
+    word-spacing: 4px;
+}
+
+
+/*NAVIGATION*/
+
+.icon-nav {
+    color: #8e44ad;
+    vertical-align: middle;
+    display: block;
+    font-size: 120%;
+    transform: scale(1.0);
+    transition: color 0.5s, transform 0.5s;
+}
+
+.icon-nav:hover,
+.icon-nav:active {
+    color: #e74c3c;
+    transform: scale(1.2);
+    transition: color 0.5s, transform 0.5s;
+}
+
+.logo {
+    float: left;
+    height: 100px;
+    margin-top: 20px;
+    width: auto;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 55px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 30px;
+    letter-spacing: 2px;
+    transform: scale(1.0);
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    color: #8e44ad;
+    font-size: 90%;
+    font-weight: 600;
+    padding: 4px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    transform: scale(1.2);
+    transition: color 0.5s, transform 0.5s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    color: #e74c3c;
+    font-weight: 900;
+    transition: color 0.5s;
+}
+
+
+/*ABOUT PAGE*/
+
+#about {
+    background-color: #8e44ad;
+    background-image: url(img/about-lockup.svg);
+    background-position: bottom;
+    background-size: 50%;
+    height: 100vh;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
