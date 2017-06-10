@@ -7,14 +7,8 @@
 }
 
 header {
-    background-attachment: fixed;
-    background-image: url(img/home-lockup.svg);
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: 50%;
     height: 100vh;
-    margin-bottom: 0;
-    padding-bottom: 0;
+    overflow: hidden;
 }
 
 html {
@@ -47,6 +41,10 @@ h1 {
     word-spacing: 4px;
 }
 
+@font-face {
+    font-family: 'BebasNeue Bold';
+    src: url('../../vendors/fonts/BebasNeue Bold.otf');
+}
 
 /*NAVIGATION*/
 
@@ -105,15 +103,86 @@ h1 {
     transition: color 0.5s;
 }
 
+/*HOME PAGE*/
+
+.home-image {
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+.home-image embed {
+    bottom: 0;
+    left: 50%;
+    margin-left: -35%;
+    overflow: hidden;
+    position: fixed;
+    width: 65%;
+    z-index: -1;
+}
 
 /*ABOUT PAGE*/
 
 #about {
     background-color: #8e44ad;
-    background-image: url(img/about-lockup.svg);
-    background-position: bottom;
-    background-size: 50%;
     height: 100vh;
-    margin-bottom: 0;
-    padding-bottom: 0;
+    padding: 0 0;
+}
+
+.about-image {
+    bottom: 0;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+}
+
+.about-image embed {
+    bottom: 0;
+    margin-left: 1%;
+    overflow: hidden;
+    width: 50%;
+}
+
+/*CALENDAR PAGE */
+
+#calendar {
+    background-color: #ecf0f1;
+    height: 100vh;
+    padding: 0 0;
+}
+
+.calendar-image {
+    bottom: 0;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+}
+
+.calendar-image embed {
+    bottom: 0;
+    margin-left: 1%;
+    overflow: hidden;
+    width: 50%;
+}
+
+/*CONTACT PAGE*/
+
+#contact {
+    background-color: #8e44ad;
+    height: 100vh;
+    padding: 0 0;
+}
+
+.contact-image {
+    bottom: 0;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+}
+
+.contact-image embed {
+    bottom: 0;
+    margin-left: 1%;
+    overflow: hidden;
+    width: 50%;
 }
