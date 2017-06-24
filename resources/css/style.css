@@ -46,6 +46,7 @@ h1 {
     src: url('../../vendors/fonts/BebasNeue Bold.otf');
 }
 
+
 /*NAVIGATION*/
 
 .icon-nav {
@@ -103,6 +104,7 @@ h1 {
     transition: color 0.5s;
 }
 
+
 /*HOME PAGE*/
 
 .home-image {
@@ -121,27 +123,32 @@ h1 {
     z-index: -1;
 }
 
+
 /*ABOUT PAGE*/
 
 #about {
     background-color: #8e44ad;
     height: 100vh;
-    padding: 0 0;
+    padding: 0;
 }
 
 .about-image {
     bottom: 0;
-    display: block;
+    margin: 0;
     overflow: hidden;
+    padding: 0;
     width: 100%;
 }
 
 .about-image embed {
     bottom: 0;
+    float: left;
     margin-left: 1%;
     overflow: hidden;
+    padding: 0;
     width: 50%;
 }
+
 
 /*CALENDAR PAGE */
 
@@ -164,6 +171,7 @@ h1 {
     overflow: hidden;
     width: 50%;
 }
+
 
 /*CONTACT PAGE*/
 
