@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+embed {
+    font-family: 'BebasNeueBold';
+}
+
 header {
     height: 100vh;
     overflow: hidden;
