@@ -200,6 +200,7 @@ p {
     height: 100vh;
     overflow: hidden;
     padding: 0 0;
+    width: 100%;
 }
 
 .calendar-image {
