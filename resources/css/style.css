@@ -157,6 +157,7 @@ p {
     background-color: #8e44ad;
     height: 100vh;
     padding: 0;
+    width: 100%;
 }
 
 .about-image {
