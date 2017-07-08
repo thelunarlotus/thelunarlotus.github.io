@@ -42,6 +42,10 @@ h1 {
     word-spacing: 4px;
 }
 
+p {
+    color: #ecf0f1;
+}
+
 @font-face {
     font-family: 'BebasNeue Bold';
     src: url('../../vendors/fonts/BebasNeue Bold.otf');
@@ -105,6 +109,28 @@ h1 {
     transition: color 0.5s;
 }
 
+#myBtn {
+    background-color: white;
+    border-radius: 50%;
+    border: none;
+    bottom: 20px;
+    color: #2c3e50;
+    cursor: pointer;
+    display: none;
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+    padding: 15px;
+    position: fixed;
+    right: 30px;
+    z-index: 1000;
+}
+
+#myBtn:hover {
+    background-color: #555;
+    color: white;
+    transition: background-color 0.5s, color 0.5s;
+}
+
 
 /*HOME PAGE*/
 
@@ -150,12 +176,29 @@ h1 {
     width: 50%;
 }
 
+.bio {
+    float: right;
+    font-size: 100%;
+    font-weight: 900;
+    line-height: 1.5;
+    position: relative;
+    top: 20px;
+    width: 45%;
+}
+
+.ryt {
+    float: right;
+    transform: scale(.7);
+    z-index: 50;
+}
+
 
 /*CALENDAR PAGE */
 
 #calendar {
     background-color: #ecf0f1;
     height: 100vh;
+    overflow: hidden;
     padding: 0 0;
 }
 
@@ -173,6 +216,17 @@ h1 {
     overflow: hidden;
     position: absolute;
     width: 50%;
+}
+
+.schedule {
+    float: right;
+    right: 28%;
+    position: relative;
+    width: 50%;
+}
+
+.schedule img {
+    transform: scale(.72);
 }
 
 
@@ -198,4 +252,132 @@ h1 {
     overflow: hidden;
     position: absolute;
     width: 50%;
+}
+
+
+/* CONTACT FORM */
+
+.form-container {
+    float: right;
+    max-width: 500px;
+    position: relative;
+    right: 10%;
+    width: 100%;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form input[type="tel"],
+#contact-form input[type="url"],
+#contact-form textarea,
+#contact-form button[type="submit"] {
+    font: 400 12px/16px "Montserrat", Helvetica, Arial, sans-serif;
+}
+
+#contact-form {
+    background-color: #8e44ad;
+    font-family: 'Montserrat', sans-serif;
+    margin: 150px 0;
+    padding: 25px;
+}
+
+#contact-form h3 {
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+#contact-form h4 {
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    margin: 5px 0 15px;
+}
+
+fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form input[type="tel"],
+#contact-form input[type="url"],
+#contact-form textarea {
+    background: #FFF;
+    border: 1px solid #ccc;
+    margin: 0 0 5px;
+    padding: 10px;
+    width: 100%;
+}
+
+#contact-form input[type="text"]:hover,
+#contact-form input[type="email"]:hover,
+#contact-form input[type="tel"]:hover,
+#contact-form input[type="url"]:hover,
+#contact-form textarea:hover {
+    -moz-transition: border-color 0.3s ease-in-out;
+    -webkit-transition: border-color 0.3s ease-in-out;
+    border: 1px solid #aaa;
+    transition: border-color 0.3s ease-in-out;
+}
+
+#contact-form textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+}
+
+#contact-form input[type="submit"] {
+    background: #8e44ad;
+    border: 1px solid #ecf0f1;
+    color: #ecf0f1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 80%;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin: 0 0 5px;
+    padding: 10px;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+#contact-form input[type="submit"]:hover {
+    background: #ecf0f1;
+    border: none;
+    color: #8e44ad;
+    cursor: pointer;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#contact-form input[type="submit"]:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+    outline: 0;
+    border: 1px solid #aaa;
+}
+
+::-webkit-input-placeholder {
+    color: #888;
+}
+
+:-moz-placeholder {
+    color: #888;
+}
+
+::-moz-placeholder {
+    color: #888;
+}
+
+:-ms-input-placeholder {
+    color: #888;
 }
