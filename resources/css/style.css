@@ -6,6 +6,14 @@
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
+body {
+    overflow-x: hidden;
+}
+
 embed {
     font-family: 'BebasNeueBold';
 }
@@ -20,6 +28,7 @@ html {
     font-family: 'Montserrat', 'Arial', sans-serif;
     font-size: 20px;
     font-weight: 400;
+    overflow-x: hidden;
     text-rendering: optimizeLegibility;
 }
 
@@ -56,7 +65,7 @@ p {
 }
 
 
-/*NAVIGATION*/
+/*MAIN NAVIGATION*/
 
 .icon-nav {
     color: #8e44ad;
@@ -100,7 +109,6 @@ p {
     font-size: 90%;
     font-weight: 600;
     padding: 4px 0;
-    text-decoration: none;
     text-transform: uppercase;
     transform: scale(1.2);
     transition: color 0.5s, transform 0.5s;
@@ -113,26 +121,82 @@ p {
     transition: color 0.5s;
 }
 
-#myBtn {
-    background-color: white;
-    border-radius: 50%;
-    border: none;
-    bottom: 20px;
-    color: #2c3e50;
+
+/*MOBILE NAVIGATION*/
+
+.mobile-nav-icon {
     cursor: pointer;
     display: none;
-    font-family: 'Montserrat', sans-serif;
-    outline: none;
-    padding: 15px;
-    position: fixed;
-    right: 30px;
-    z-index: 1000;
+    float: right;
+    margin-top: 30px;
 }
 
-#myBtn:hover {
-    background-color: #555;
-    color: white;
-    transition: background-color 0.5s, color 0.5s;
+.mobile-nav-icon i {
+    color: #8e44ad;
+    font-size: 200%;
+}
+
+
+/*STICKY NAVIGATION*/
+
+.sticky {
+    background-color: #ecf0f1;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.sticky .logo {
+    float: left;
+    height: 50px;
+    margin: 5px 0;
+    width: auto;
+}
+
+.sticky .icon-nav {
+    color: #8e44ad;
+    vertical-align: middle;
+    display: block;
+    font-size: 120%;
+    transform: scale(1.0);
+    transition: color 0.5s, transform 0.5s;
+}
+
+.sticky .icon-nav:hover,
+.sticky .icon-nav:active {
+    color: #e74c3c;
+    transform: scale(1.2);
+    transition: color 0.5s, transform 0.5s;
+}
+
+.sticky .main-nav {
+    margin-top: 15px;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+    color: #8e44ad;
+    font-size: 90%;
+    font-weight: 600;
+    padding: 15px 0;
+    text-transform: uppercase;
+    transform: scale(1.2);
+    transition: color 0.5s, transform 0.5s;
+}
+
+.sticky .main-nav li a:hover,
+.sticky .main-nav li a:active {
+    color: #e74c3c;
+    font-weight: 900;
+    transition: color 0.5s;
+}
+
+.sticky .mobile-nav-icon {
+    float: right;
+    margin: 5px 20px;
+    width: auto;
 }
 
 
@@ -188,8 +252,8 @@ p {
     font-weight: 900;
     line-height: 1.5;
     position: relative;
-    top: 20px;
-    width: 45%;
+    top: 80px;
+    width: 50%;
 }
 
 .ryt {
@@ -388,4 +452,70 @@ fieldset {
 
 :-ms-input-placeholder {
     color: #888;
+}
+
+
+/*FOOTER PAGE*/
+
+footer {
+    background-color: #ecf0f1;
+    padding: 40px;
+}
+
+.footer-nav {
+    float: left;
+    list-style: none;
+}
+
+.social-links {
+    float: right;
+    list-style: none;
+}
+
+.footer-nav li,
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child {
+    margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+    color: #333;
+    text-decoration: none;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: #8e44ad;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+    font-size: 140%;
+}
+
+.ion-social-facebook,
+.ion-social-linkedin,
+.ion-social-instagram,
+.footer-nav li a{
+    transition: color 0.5s;
+}
+
+.ion-social-facebook:hover {
+    color: #3b5998;
+}
+
+.ion-social-linkedin:hover {
+    color: #007bb6;
+}
+
+.ion-social-instagram:hover {
+    color: #c32aa3;
 }

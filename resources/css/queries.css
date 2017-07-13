@@ -1,0 +1,218 @@
+/* SMALL PHONES */
+
+@media only screen and (max-width: 30em) {
+    body {
+        font-size: 12px;
+    }
+    .home-image embed {
+        height: 100%;
+        width: 100%;
+    }
+    .main-nav {
+        background-color: #ecf0f1;
+        display: none;
+        float: left;
+        margin-top: 35px;
+        margin-left: 25px;
+        width: 100%;
+    }
+    .main-nav li {
+        display: block;
+    }
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        font-size: 80%;
+        padding: 10px 0;
+    }
+    .mobile-nav-icon {
+        display: inline-block;
+    }
+    .sticky .main-nav {
+        margin-top: 10px;
+    }
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:link {
+        padding: 10px 0;
+    }
+    .sticky .mobile-nav-icon {
+        margin-top: 10px;
+    }
+    .bio {
+        width: 100%:
+    }
+}
+
+
+/* SMALL PHONES TO SMALL TABLETS */
+
+@media only screen and (max-width: 47.938em) {
+    body {
+        font-size: 12px;
+    }
+    .home-image embed {
+        height: 100%;
+        width: 100%;
+    }
+    .main-nav {
+        background-color: #ecf0f1;
+        display: none;
+        float: left;
+        margin-top: 35px;
+        margin-left: 25px;
+        width: 100%;
+    }
+    .main-nav li {
+        display: block;
+    }
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        font-size: 80%;
+        padding: 10px 0;
+    }
+    .mobile-nav-icon {
+        display: inline-block;
+    }
+    .sticky .main-nav {
+        margin-top: 10px;
+    }
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:link {
+        padding: 10px 0;
+    }
+    .sticky .mobile-nav-icon {
+        margin-top: 10px;
+    }
+}
+
+
+/* SMALL TABLETS TO LARGE TABLETS */
+
+@media only screen and (max-width: 63.938em) {
+    body {
+        font-size: 12px;
+    }
+    .home-image embed {
+        height: 100%;
+        width: 100%;
+    }
+    .main-nav {
+        background-color: #ecf0f1;
+        display: none;
+        float: left;
+        margin-top: 35px;
+        margin-left: 25px;
+        width: 100%;
+    }
+    .main-nav li {
+        display: block;
+    }
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        font-size: 80%;
+        padding: 10px 0;
+    }
+    .mobile-nav-icon {
+        display: inline-block;
+    }
+    .sticky .main-nav {
+        margin-top: 10px;
+    }
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:link {
+        padding: 10px 0;
+    }
+    .sticky .mobile-nav-icon {
+        margin-top: 10px;
+    }
+    .mobile-nav-icon {
+        padding: 20px;
+    }
+    .about-image embed {
+        left: 50%;
+        margin-left: -35%;
+        width: 70%;
+    }
+    .bio {
+        float: left;
+        font-size: 100%;
+        line-height: 1.4;
+        padding: inherit;
+        text-align: center;
+        width: 100%;
+    }
+    .ryt {
+        align-content: center;
+        float: left;
+    }
+    .calendar-image embed {
+        left: 50%;
+        margin-left: -35%;
+        width: 70%;
+    }
+}
+
+
+/* SMALL TABLETS TO LARGE TABLETS */
+
+@media only screen and (max-width: 66em) {
+    .home-image embed {
+        height: 100%;
+        width: 80%;
+    }
+    .main-nav {
+        background-color: #ecf0f1;
+        display: none;
+        float: left;
+        margin-top: 35px;
+        margin-left: 25px;
+        width: 100%;
+    }
+    .main-nav li {
+        display: block;
+    }
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        font-size: 80%;
+        padding: 10px 0;
+    }
+    .mobile-nav-icon {
+        display: inline-block;
+    }
+    .sticky .main-nav {
+        margin-top: 10px;
+    }
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:link {
+        padding: 10px 0;
+    }
+    .sticky .mobile-nav-icon {
+        margin-top: 10px;
+    }
+    .schedule img {
+        transform: scale(.5);
+    }
+}
+
+@media only screen and (max-width: 73.125em) {}
+
+
+/* LARGE TABLETS TO LARGE MONITORS */
+
+@media only screen and (max-width: 75em) {
+    .row {
+        padding: 0 2%;
+    }
+    .schedule img {
+        transform: scale(.5);
+    }
+}
+
+
+/* ABOVE AND BEYOND */
+
+@media only screen and (min-width: 75.1em) {
+}

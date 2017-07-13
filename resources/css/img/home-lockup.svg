@@ -1,1 +1,28 @@
-<svg id="b32853d4-0181-46c7-bd6e-2b0feb104b6d" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 840 600"><title>lockup</title><text transform="translate(84.62 341.1)" font-size="206.17" fill="#8e44ad" font-family="BebasNeueBold, Bebas Neue" font-weight="700" letter-spacing="-0.03em">welcome</text><image width="6000" height="4000" transform="translate(-64 -33.8) scale(0.16)" xlink:href="about-photo.png"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="b32853d4-0181-46c7-bd6e-2b0feb104b6d"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 840 600"
+	 style="enable-background:new 0 0 840 600;" xml:space="preserve">
+<style type="text/css">
+	.st0{enable-background:new    ;}
+	.st1{fill:#8E44AD;}
+</style>
+<title>lockup</title>
+<g class="st0">
+	<path class="st1" d="M143.2,264.2l-8.2,76.9h-31.1L87.7,196.8h22.1l12.2,113.8l10.9-113.8h21.9l11.3,114.6l11.8-114.6h19.8
+		l-16.1,144.3h-30.1L143.2,264.2z"/>
+	<path class="st1" d="M225.6,257.6h31.1v20.6h-31.1v42.3h39.2v20.6H203V196.8h61.9v20.6h-39.2V257.6z"/>
+	<path class="st1" d="M272.9,196.8h22.7v123.7h37.3v20.6h-60V196.8z"/>
+	<path class="st1" d="M402.5,287.3v19.2c0,23.1-11.5,36.3-33.8,36.3s-33.8-13.2-33.8-36.3v-75c0-23.1,11.5-36.3,33.8-36.3
+		s33.8,13.2,33.8,36.3v14h-21.4V230c0-10.3-4.5-14.2-11.8-14.2c-7.2,0-11.8,3.9-11.8,14.2v77.9c0,10.3,4.5,14,11.8,14
+		c7.2,0,11.8-3.7,11.8-14v-20.6H402.5z"/>
+	<path class="st1" d="M408.5,231.4c0-23.1,12.2-36.3,34.4-36.3c22.3,0,34.4,13.2,34.4,36.3v75c0,23.1-12.2,36.3-34.4,36.3
+		c-22.3,0-34.4-13.2-34.4-36.3V231.4z M431.2,307.9c0,10.3,4.5,14.2,11.8,14.2s11.8-3.9,11.8-14.2V230c0-10.3-4.5-14.2-11.8-14.2
+		s-11.8,3.9-11.8,14.2V307.9z"/>
+	<path class="st1" d="M534.1,299.2l15.5-102.5h31.5v144.3h-21.4V237.6L544,341.1h-21.4L505.6,239v102.1h-19.8V196.8h31.5
+		L534.1,299.2z"/>
+	<path class="st1" d="M614.3,257.6h31.1v20.6h-31.1v42.3h39.2v20.6h-61.9V196.8h61.9v20.6h-39.2V257.6z"/>
+</g>
+<image style="overflow:visible;enable-background:new    ;" width="6000" height="4000" xlink:href="about-photo.png"  transform="matrix(0.16 0 0 0.16 -64 -33.8)">
+</image>
+</svg>
