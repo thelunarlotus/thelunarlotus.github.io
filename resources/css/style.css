@@ -166,7 +166,6 @@ p {
 
 .sticky .icon-nav:hover,
 .sticky .icon-nav:active {
-    color: #e74c3c;
     transform: scale(1.2);
     transition: color 0.5s, transform 0.5s;
 }
