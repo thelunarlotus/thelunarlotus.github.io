@@ -65,6 +65,77 @@ p {
 }
 
 
+/*LOADER*/
+
+.loader {
+    -ms-transform: translateZ(0);
+    -webkit-animation: load3 1.4s infinite linear;
+    -webkit-transform: translateZ(0);
+    animation: load3 1.4s infinite linear;
+    background: #ffffff;
+    background: -moz-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
+    background: -ms-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
+    background: -o-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
+    background: -webkit-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
+    background: linear-gradient(to right, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
+    border-radius: 50%;
+    font-size: 10px;
+    height: 11em;
+    margin: 50px auto;
+    position: relative;
+    text-indent: -9999em;
+    transform: translateZ(0);
+    width: 11em;
+}
+
+.loader:before {
+    background: #ffffff;
+    border-radius: 100% 0 0 0;
+    content: '';
+    height: 50%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 50%;
+}
+
+.loader:after {
+    background: #0dc5c1;
+    border-radius: 50%;
+    bottom: 0;
+    content: '';
+    height: 75%;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 75%;
+}
+
+@-webkit-keyframes load3 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes load3 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+
 /*MAIN NAVIGATION*/
 
 .icon-nav {
@@ -290,13 +361,19 @@ p {
 
 .schedule {
     float: right;
-    right: 28%;
-    position: relative;
-    width: 50%;
+    margin: 0;
+    padding: 0;
+    right: 0;
+    width: 100%;
 }
 
 .schedule img {
-    transform: scale(.72);
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: -6%;
+    transform: scale(.75);
+    width: 70%;
 }
 
 
@@ -503,7 +580,7 @@ footer {
 .ion-social-facebook,
 .ion-social-linkedin,
 .ion-social-instagram,
-.footer-nav li a{
+.footer-nav li a {
     transition: color 0.5s;
 }
 
