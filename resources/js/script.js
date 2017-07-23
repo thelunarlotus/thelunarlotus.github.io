@@ -51,17 +51,6 @@ $(document).ready(function () {
         }
     });
 
-    $(".main-nav li a").on('click', function () {
-        $(".main-nav").hide();
-        if (icon.hasClass('ion-close-round')) {
-            icon.addClass('ion-navicon-round');
-            icon.removeClass('ion-close-round');
-        } else {
-            icon.addClass('ion-close-round');
-            icon.removeClass('ion-navicon-round');
-        }
-    });
-
     /*CONTACT FORM*/
     var $contactForm = $('#contact-form');
     $contactForm.submit(function (e) {
