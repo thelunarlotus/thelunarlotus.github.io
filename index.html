@@ -72,13 +72,30 @@
         <div class="about-image">
             <embed src="resources/css/img/about-lockup.svg">
         </div>
-        <div class="row">
-            <div class="col span-1-of-2 box"></div>
-            <div class="col span-1-of-2 box bio">
-                <a href="https://www.yogaalliance.org/TeacherPublicProfile?tid=119363" target="_blank"><img class="ryt" src="resources/img/RYT-icon.png" /></a>
-                <p>I have always had a passion for health and wellness. I have always valued the importance of proper nutrition and treating the body with love and care through natural methods. I have a Bachelor of Science in Exercise Science, with a concentration in Exercise Physiology. I am also an ACSM Certified Personal Trainer. I found my calling during my own personal studies on healing the mind and body and received my 200-hr certification through YogaWorks in April 2015. I practice and teache a vinyasa flow-style class and specialize in arm balancing and inversions. I always enjoy a challenge and encourage my students to take every opportunity to try new things as well. I believe that by taking these opportunities, students will discover more about themselves and gain new levels of strength and wisdom through their own practice. I am very excited to share my passion with all of my students; from first-time yogis, to those who have been doing yoga for many years. All of my classes are open-level, with modifications for all skill levels.
-                </p>
+        <div class="bio">
+            <div class="row intro">
+                <p>Hello, I'm Megan Gerhard and I can't wait to be your guide!
             </div>
+
+            <div class="row">
+                <div class="col span-1-of-4 box"></div>
+                <div class="col span-1-of-4 box">
+                    <img src="resources/img/RYT-icon.png" />
+                    <h3>Yoga</h3>
+                    <p>I am RYT-200 Yoga Aliiance Certified and received my 200hr certification through YogaWorks. My primary focus is vinyasa flow, arm balancing and inversions, but I teach other styles and have experience teaching many age groups.</p>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <i class="ion-stats-bars icon-big"></i>
+                    <h3>Exercise Science & Health Coaching</h3>
+                    <p>With a BS in Exercise Science and an ACSM Personal Trainer certification, my qualifications match my passion for everything health and wellness related.</p>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <i class="ion-heart icon-big"></i>
+                    <h3>My Motivation</h3>
+                    <p>Looking to layout a stellar experience through user research and intuitive interface design? I've got you covered. Sketches, wireframes, protoypes, and more.</p>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section id="calendar">
@@ -91,9 +108,20 @@
                 <img src="resources/img/schedule.jpg" />
             </div>
         </div>
-        <div class="row">
-
-        </div>
+        <ul class="descriptions">
+            <li class="row">
+                <p><em>Vinyasa:</em> Connecting breath with movement, vinyasa yoga incorporates sun salutations, external and neutral poses, inversions, and arm balancing to increase strength and flexibility of body and mind. Alignment based. Open to all levels. Modifications and additional challenges always offered.</p>
+            </li>
+            <li class="row">
+                <p><em>Restorative:</em> Perfect for anyone looking to let go of tension and stress, restorative yoga incorporates sitting and lying down poses to stretch the body and open the mind. Suitable for all levels, including anyone with restricted movement, prenatal, or coming back from an injury.</p>
+            </li>
+            <li class="row">
+                <p><em>Power Flow:</em> Incorporating all the benefits of vinyasa, power yoga adds a bit more heat to tone the body and enlighten our sense of self through body transformations. Meant to build strength and stability in all the major muscle groups, including the core: the center of our being. Although it moves a bit more quickly than traditional vinyasa, modifications can be made to suit all skill levels.</p>
+            </li>        
+            <li class="row">
+                <p><em>Meditation:</em> Sitting or lying down, this is a fully-guided meditative practice of mental and physical healing, including breathwork to calm the mind and body. Different breathing techniques will be introduced to find peace and tranquility in stillness. Open to all levels.</p>
+            </li>
+        </ul>
     </section>
 
     <section id="contact">
@@ -131,20 +159,6 @@
             </div>
         </div>
     </footer>
-    <script>
-        $('body').append('<div style="" id="loadingDiv"><div class="loader">Loading...</div></div>');
-        $(window).on('load', function() {
-            setTimeout(removeLoader, 2000); //wait for page load PLUS two seconds.
-        });
-
-        function removeLoader() {
-            $("#loadingDiv").fadeOut(500, function() {
-                // fadeOut complete. Remove the loading div
-                $("#loadingDiv").remove(); //makes page more lightweight 
-            });
-        }
-
-    </script>
 </body>
 
 </html>

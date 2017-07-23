@@ -50,7 +50,11 @@ $(document).ready(function () {
             icon.removeClass('ion.close.round');
         }
     });
-
+    
+    $(".main-nav li a").on('click', function(){
+        $(".main-nav").hide();
+    });
+    
     /*CONTACT FORM*/
     var $contactForm = $('#contact-form');
     $contactForm.submit(function (e) {
