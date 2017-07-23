@@ -222,6 +222,7 @@
         width: 70%;
     }
     .bio {
+        margin-top: 20px;
         float: left;
         font-size: 100%;
         line-height: 1.4;
@@ -234,6 +235,11 @@
         float: left;
     }
     .calendar-image embed {
+        left: 50%;
+        margin-left: -35%;
+        width: 70%;
+    }
+    .contact-image embed {
         left: 50%;
         margin-left: -35%;
         width: 70%;
