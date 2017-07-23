@@ -224,7 +224,7 @@ p {
     background-color: #8e44ad;
     height: 100vh;
     overflow: hidden;
-    padding: 0;
+    padding: 20px;
     width: 100%;
 }
 
