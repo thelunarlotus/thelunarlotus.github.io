@@ -14,10 +14,6 @@ body {
     overflow-x: hidden;
 }
 
-embed {
-    font-family: 'BebasNeueBold';
-}
-
 header {
     height: 100vh;
     overflow: hidden;
@@ -57,11 +53,6 @@ h1 {
 
 p {
     color: #ecf0f1;
-}
-
-@font-face {
-    font-family: 'BebasNeueBold';
-    src: url('vendors/fonts/BebasNeue Bold.otf');
 }
 
 
