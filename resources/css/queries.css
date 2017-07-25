@@ -90,7 +90,7 @@
                 .contact-image embed {
                     bottom: 0;
                     position: absolute;
-                    transform: scale(.75);
+                    transform: scale(.5);
                     width: 100%;
                 }
                 .form-container {
