@@ -45,6 +45,7 @@
                     padding: 2px;
                 }
                 .bio {
+                    line-height: 1;
                     width: 100%;
                 }
                 #calendar {
