@@ -1,298 +1,348 @@
-        /* SMALL PHONES */
-    
-    @media only screen and (max-width: 30em) {
-        body {
-            font-size: 12px;
-        }
-        .home-image embed {
-            height: 100%;
-            width: 100%;
-        }
-        .main-nav {
-            background-color: #ecf0f1;
-            display: none;
-            float: left;
-            margin-top: 35px;
-            margin-left: 25px;
-            width: 100%;
-        }
-        .main-nav li {
-            display: block;
-        }
-        .main-nav li a:link,
-        .main-nav li a:visited {
-            display: block;
-            font-size: 80%;
-            padding: 10px 0;
-        }
-        .mobile-nav-icon {
-            display: inline-block;
-        }
-        .sticky .main-nav {
-            margin-top: 10px;
-        }
-        .sticky .main-nav li a:link,
-        .sticky .main-nav li a:link {
-            padding: 10px 0;
-        }
-        .sticky .mobile-nav-icon {
-            margin-top: 10px;
-        }
-        .ryt {
-            transform: scale(.5);
-        }
-        .bio {
-            width: 100%:
-        }
-        #calendar {
-            width: 100%;
-        }
-        .calendar-image embed {
-            left: 0;
-            margin-right: 35%;
-            position: absolute;
-            width: 70%;
-            z-index: 10;
-        }
-        .schedule {
-            float: left;
-            left: 0;
-            position: absolute;
-            transform: scale(2.0);
-            width: 100%;
-            z-index: 20;
-        }
-        .schedule img {
-            float: inherit;
-            left: 0;
-            margin: 0;
-            padding: 0;
-            position: inherit;
-            transform: scale(2.0);
-            width: 100%;
-        }
-        .contact-image embed {
-            bottom: 0;
-            position: absolute;
-            transform: scale(.75);
-            width: 100%;
-        }
-        .form-container {
-            float: left;
-            margin: auto;
-            padding: 0;
-            position: absolute;
-            right: 0;
-            width: 100;
-            z-index: 20;
-        }
-        /* SMALL PHONES TO SMALL TABLETS */
-        @media only screen and (max-width: 47.938em) {
-            body {
-                font-size: 12px;
+            /* SMALL PHONES */
+            
+            @media only screen and (max-width: 30em) {
+                body {
+                    font-size: 12px;
+                }
+                .home-image embed {
+                    height: 100%;
+                    width: 100%;
+                }
+                .main-nav {
+                    background-color: #ecf0f1;
+                    display: none;
+                    float: left;
+                    margin-top: 35px;
+                    margin-left: 25px;
+                    width: 100%;
+                }
+                .main-nav li {
+                    display: block;
+                }
+                .main-nav li a:link,
+                .main-nav li a:visited {
+                    display: block;
+                    font-size: 80%;
+                    padding: 10px 0;
+                }
+                .mobile-nav-icon {
+                    display: inline-block;
+                }
+                .sticky .main-nav {
+                    margin-top: 10px;
+                }
+                .sticky .main-nav li a:link,
+                .sticky .main-nav li a:link {
+                    padding: 10px 0;
+                }
+                .sticky .mobile-nav-icon {
+                    margin-top: 10px;
+                }
+                .ryt {
+                    transform: scale(.8);
+                }
+                #about {
+                    padding: 10px;
+                }
+                .bio {
+                    width: 100%;
+                }
+                #calendar {
+                    width: 100%;
+                }
+                .calendar-image embed {
+                    left: 0;
+                    margin-right: 35%;
+                    position: absolute;
+                    width: 70%;
+                    z-index: 10;
+                }
+                .schedule {
+                    float: left;
+                    left: 0;
+                    position: absolute;
+                    top: -40px;
+                    transform: scale(2.0);
+                    width: 100%;
+                    z-index: 20;
+                }
+                .schedule img {
+                    float: inherit;
+                    left: 0;
+                    margin: 0;
+                    padding: 0;
+                    top: 0;
+                    transform: scale(2.0);
+                    width: 100%;
+                }
+                .descriptions {
+                    float: left;
+                    margin: 0;
+                    padding: 0;
+                    text-align: center;
+                    width: 100%;
+                }
+                .contact-image embed {
+                    bottom: 0;
+                    position: absolute;
+                    transform: scale(.75);
+                    width: 100%;
+                }
+                .form-container {
+                    float: left;
+                    margin: auto;
+                    padding: 0;
+                    position: absolute;
+                    right: 0;
+                    width: 100;
+                    z-index: 20;
+                }
+                footer {
+                    padding: 10px;
+                }
+                .footer-nav {
+                    float: left;
+                    margin: 0;
+                    padding: 0;
+                }
+                .footer-nav li {
+                    display: block;
+                }
+                .social-links {
+                    margin: 0;
+                    padding: 0;
+                }
+                .social-links li {
+                    margin-top: 0;
+                    padding: 0;
+                }
             }
-            .home-image embed {
-                height: 100%;
-                width: 100%;
+            /* SMALL PHONES TO SMALL TABLETS */
+            
+            @media only screen and (max-width: 47.938em) {
+                body {
+                    font-size: 12px;
+                }
+                .home-image embed {
+                    height: 100%;
+                    width: 100%;
+                }
+                .main-nav {
+                    background-color: #ecf0f1;
+                    display: none;
+                    float: left;
+                    margin-top: 35px;
+                    margin-left: 25px;
+                    width: 100%;
+                }
+                .main-nav li {
+                    display: block;
+                }
+                .main-nav li a:link,
+                .main-nav li a:visited {
+                    display: block;
+                    font-size: 80%;
+                    padding: 10px 0;
+                }
+                .mobile-nav-icon {
+                    display: inline-block;
+                }
+                .sticky .main-nav {
+                    margin-top: 10px;
+                }
+                .sticky .main-nav li a:link,
+                .sticky .main-nav li a:link {
+                    padding: 10px 0;
+                }
+                .sticky .mobile-nav-icon {
+                    margin-top: 10px;
+                }
+                .sticky .logo {
+                    margin-top: 18px;
+                    margin-left: 10px;
+                }
+                #calendar {
+                    padding: 0;
+                    width: 100%;
+                }
+                #calendar img {
+                    float: left;
+                    left: 0;
+                    margin: 0;
+                    position: absolute;
+                    z-index: 20;
+                }
+                .calendar-image embed {
+                    left: 0;
+                    margin-right: 35%;
+                    position: absolute;
+                    width: 70%;
+                    z-index: 10;
+                }
+                .schedule {
+                    float: left;
+                    left: 0;
+                    position: absolute;
+                    top: 0;
+                    transform: scale(2.0);
+                    width: 100%;
+                    z-index: 20;
+                }
+                .schedule img {
+                    float: inherit;
+                    left: 0;
+                    margin: 0;
+                    padding: 0;
+                    top: 0;
+                    transform: scale(2.0);
+                    width: 100%;
+                }
+                .descriptions {
+                    float: left;
+                    margin-top: 280px;
+                    padding: 0;
+                    text-align: center;
+                    width: 100%;
+                }
+                .descriptions p {
+                    line-height: 1;
+                    margin-top: 2px;
+                }
+                .form-container {
+                    float: left;
+                    margin: auto;
+                    padding: 0;
+                    position: absolute;
+                    right: 0;
+                    width: 100;
+                    z-index: 20;
+                }
             }
-            .main-nav {
-                background-color: #ecf0f1;
-                display: none;
-                float: left;
-                margin-top: 35px;
-                margin-left: 25px;
-                width: 100%;
+            /* SMALL TABLETS TO LARGE TABLETS */
+            
+            @media only screen and (max-width: 63.938em) {
+                body {
+                    font-size: 12px;
+                }
+                .home-image embed {
+                    height: 100%;
+                    width: 100%;
+                }
+                .main-nav {
+                    background-color: #ecf0f1;
+                    display: none;
+                    float: left;
+                    margin-top: 35px;
+                    margin-left: 25px;
+                    width: 100%;
+                }
+                .main-nav li {
+                    display: block;
+                }
+                .main-nav li a:link,
+                .main-nav li a:visited {
+                    display: block;
+                    font-size: 80%;
+                    padding: 10px 0;
+                }
+                .mobile-nav-icon {
+                    display: inline-block;
+                }
+                .sticky .main-nav {
+                    margin-top: 10px;
+                }
+                .sticky .main-nav li a:link,
+                .sticky .main-nav li a:link {
+                    padding: 10px 0;
+                }
+                .sticky .mobile-nav-icon {
+                    margin-top: 10px;
+                }
+                .mobile-nav-icon {
+                    padding: 20px;
+                }
+                .about-image embed {
+                    left: 50%;
+                    margin-left: -35%;
+                    width: 70%;
+                }
+                .bio {
+                    margin-top: 20px;
+                    float: left;
+                    font-size: 100%;
+                    line-height: 1.4;
+                    padding: inherit;
+                    text-align: center;
+                    width: 100%;
+                }
+                .ryt {
+                    align-content: center;
+                    float: left;
+                }
+                .calendar-image embed {
+                    left: 50%;
+                    margin-left: -35%;
+                    width: 70%;
+                }
+                .contact-image embed {
+                    left: 50%;
+                    margin-left: -35%;
+                    width: 70%;
+                }
             }
-            .main-nav li {
-                display: block;
+            /* SMALL TABLETS TO LARGE TABLETS */
+            
+            @media only screen and (max-width: 66em) {
+                .home-image embed {
+                    height: 100%;
+                    width: 80%;
+                }
+                .main-nav {
+                    background-color: #ecf0f1;
+                    display: none;
+                    float: left;
+                    margin-top: 35px;
+                    margin-left: 25px;
+                    width: 100%;
+                }
+                .main-nav li {
+                    display: block;
+                }
+                .main-nav li a:link,
+                .main-nav li a:visited {
+                    display: block;
+                    font-size: 80%;
+                    padding: 10px 0;
+                }
+                .mobile-nav-icon {
+                    display: inline-block;
+                }
+                .sticky .main-nav {
+                    margin-top: 10px;
+                }
+                .sticky .main-nav li a:link,
+                .sticky .main-nav li a:link {
+                    padding: 10px 0;
+                }
+                .sticky .mobile-nav-icon {
+                    margin-top: 10px;
+                }
+                .schedule img {
+                    transform: scale(.5);
+                }
             }
-            .main-nav li a:link,
-            .main-nav li a:visited {
-                display: block;
-                font-size: 80%;
-                padding: 10px 0;
+            
+            @media only screen and (max-width: 73.125em) {}
+            /* LARGE TABLETS TO LARGE MONITORS */
+            
+            @media only screen and (max-width: 75em) {
+                .row {
+                    padding: 0 2%;
+                }
+                .schedule img {
+                    transform: scale(.5);
+                }
             }
-            .mobile-nav-icon {
-                display: inline-block;
-            }
-            .sticky .main-nav {
-                margin-top: 10px;
-            }
-            .sticky .main-nav li a:link,
-            .sticky .main-nav li a:link {
-                padding: 10px 0;
-            }
-            .sticky .mobile-nav-icon {
-                margin-top: 10px;
-            }
-            .ryt {
-                transform: scale(.5);
-            }
-            #calendar {
-                padding: 0;
-                width: 100%;
-            }
-            #calendar img {
-                float: left;
-                left: 0;
-                margin: 0;
-                position: absolute;
-                z-index: 20;
-            }
-            .calendar-image embed {
-                left: 0;
-                margin-right: 35%;
-                position: absolute;
-                width: 70%;
-                z-index: 10;
-            }
-            .schedule {
-                float: left;
-                left: 0;
-                position: absolute;
-                transform: scale(2.0);
-                width: 100%;
-                z-index: 20;
-            }
-            .schedule img {
-                float: inherit;
-                left: 0;
-                margin: 0;
-                padding: 0;
-                position: inherit;
-                transform: scale(2.0);
-                width: 100%;
-            }
-            .form-container {
-                float: left;
-                margin: auto;
-                padding: 0;
-                position: absolute;
-                right: 0;
-                width: 100;
-                z-index: 20;
-            }
-        }
-        /* SMALL TABLETS TO LARGE TABLETS */
-        @media only screen and (max-width: 63.938em) {
-            body {
-                font-size: 12px;
-            }
-            .home-image embed {
-                height: 100%;
-                width: 100%;
-            }
-            .main-nav {
-                background-color: #ecf0f1;
-                display: none;
-                float: left;
-                margin-top: 35px;
-                margin-left: 25px;
-                width: 100%;
-            }
-            .main-nav li {
-                display: block;
-            }
-            .main-nav li a:link,
-            .main-nav li a:visited {
-                display: block;
-                font-size: 80%;
-                padding: 10px 0;
-            }
-            .mobile-nav-icon {
-                display: inline-block;
-            }
-            .sticky .main-nav {
-                margin-top: 10px;
-            }
-            .sticky .main-nav li a:link,
-            .sticky .main-nav li a:link {
-                padding: 10px 0;
-            }
-            .sticky .mobile-nav-icon {
-                margin-top: 10px;
-            }
-            .mobile-nav-icon {
-                padding: 20px;
-            }
-            .about-image embed {
-                left: 50%;
-                margin-left: -35%;
-                width: 70%;
-            }
-            .bio {
-                margin-top: 20px;
-                float: left;
-                font-size: 100%;
-                line-height: 1.4;
-                padding: inherit;
-                text-align: center;
-                width: 100%;
-            }
-            .ryt {
-                align-content: center;
-                float: left;
-            }
-            .calendar-image embed {
-                left: 50%;
-                margin-left: -35%;
-                width: 70%;
-            }
-            .contact-image embed {
-                left: 50%;
-                margin-left: -35%;
-                width: 70%;
-            }
-        }
-        /* SMALL TABLETS TO LARGE TABLETS */
-        @media only screen and (max-width: 66em) {
-            .home-image embed {
-                height: 100%;
-                width: 80%;
-            }
-            .main-nav {
-                background-color: #ecf0f1;
-                display: none;
-                float: left;
-                margin-top: 35px;
-                margin-left: 25px;
-                width: 100%;
-            }
-            .main-nav li {
-                display: block;
-            }
-            .main-nav li a:link,
-            .main-nav li a:visited {
-                display: block;
-                font-size: 80%;
-                padding: 10px 0;
-            }
-            .mobile-nav-icon {
-                display: inline-block;
-            }
-            .sticky .main-nav {
-                margin-top: 10px;
-            }
-            .sticky .main-nav li a:link,
-            .sticky .main-nav li a:link {
-                padding: 10px 0;
-            }
-            .sticky .mobile-nav-icon {
-                margin-top: 10px;
-            }
-            .schedule img {
-                transform: scale(.5);
-            }
-        }
-        @media only screen and (max-width: 73.125em) {}
-        /* LARGE TABLETS TO LARGE MONITORS */
-        @media only screen and (max-width: 75em) {
-            .row {
-                padding: 0 2%;
-            }
-            .schedule img {
-                transform: scale(.5);
-            }
-        }
-        /* ABOVE AND BEYOND */
-        @media only screen and (min-width: 75.1em) {}
+            /* ABOVE AND BEYOND */
+            
+            @media only screen and (min-width: 75.1em) {}
