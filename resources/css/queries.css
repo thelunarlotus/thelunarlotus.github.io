@@ -78,10 +78,14 @@
                 }
                 .descriptions {
                     float: left;
-                    margin: 0;
+                    margin-top: 200px;
                     padding: 0;
                     text-align: center;
                     width: 100%;
+                }
+                .descriptions p {
+                    line-height: 1;
+                    margin-top: 2px;
                 }
                 .contact-image embed {
                     bottom: 0;
