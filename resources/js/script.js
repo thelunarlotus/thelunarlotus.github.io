@@ -1,5 +1,11 @@
 $(document).ready(function () {
 
+    /*LOADING*/
+    setTimeout(function () {
+        $('body').addClass('loaded');
+        $('h1').css('color', '#222222');
+    }, 3000);
+
     /*STICKY NAVIGATION*/
     $("#about").waypoint(function (direction) {
         if (direction == 'down') {
