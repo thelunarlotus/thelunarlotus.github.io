@@ -62,7 +62,7 @@ $(document).ready(function () {
     $contactForm.submit(function (e) {
         e.preventDefault();
         $.ajax({
-            url: '//formspree.io/megan.gerhard326@gmail',
+            url: '//formspree.io/megan.gerhard326@gmail.com',
             method: 'POST',
             data: $(this).serialize(),
             dataType: 'json',
@@ -75,7 +75,7 @@ $(document).ready(function () {
             },
             error: function (err) {
                 $contactForm.find('.alert--loading').hide();
-                $contactForm.append('<div class="alert alert--error">Ops, there was an error.</div>');
+                $contactForm.append('<div class="alert alert--error">Oops, there was an error.</div>');
             }
         });
     });
