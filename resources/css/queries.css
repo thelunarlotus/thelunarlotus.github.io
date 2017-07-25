@@ -83,6 +83,12 @@
         width: 100;
         z-index: 20;
     }
+    .about-image embed {
+        bottom: 0;
+        position: absolute;
+        transform: scale(.75);
+        width: 100%;
+    }
 }
 
 
