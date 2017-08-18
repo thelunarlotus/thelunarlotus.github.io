@@ -639,65 +639,26 @@ fieldset {
 
 /*FOOTER PAGE*/
 
+.address {
+    text-align: center;
+}
+
+.address a {
+    color: darkslategray;
+    font-weight: 100;
+    font-size: 140%;
+    letter-spacing: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: color 0.3s ease-in-out;
+}
+
+.address a:hover {
+    color: darkcyan;
+}
+
 footer {
     background-color: #ecf0f1;
     padding: 40px;
-}
-
-.footer-nav {
-    float: left;
-    list-style: none;
-}
-
-.social-links {
-    float: right;
-    list-style: none;
-}
-
-.footer-nav li,
-.social-links li {
-    display: inline-block;
-    margin-right: 20px;
-}
-
-.footer-nav li:last-child,
-.social-links li:last-child {
-    margin-right: 0;
-}
-
-.footer-nav li a:link,
-.footer-nav li a:visited,
-.social-links li a:link,
-.social-links li a:visited {
-    color: #333;
-    text-decoration: none;
-}
-
-.footer-nav li a:hover,
-.footer-nav li a:active {
-    color: #8e44ad;
-}
-
-.social-links li a:link,
-.social-links li a:visited {
-    font-size: 140%;
-}
-
-.ion-social-facebook,
-.ion-social-linkedin,
-.ion-social-instagram,
-.footer-nav li a {
-    transition: color 0.5s;
-}
-
-.ion-social-facebook:hover {
-    color: #3b5998;
-}
-
-.ion-social-linkedin:hover {
-    color: #007bb6;
-}
-
-.ion-social-instagram:hover {
-    color: #c32aa3;
+    width: 100%;
 }
