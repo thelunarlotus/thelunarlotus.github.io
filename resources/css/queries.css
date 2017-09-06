@@ -332,6 +332,9 @@
                 .sticky .mobile-nav-icon {
                     margin-top: 10px;
                 }
+                .descriptions {
+                    margin-top: 500px;
+                }
                 .schedule img {
                     transform: scale(.5);
                 }
