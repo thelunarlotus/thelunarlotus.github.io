@@ -280,6 +280,9 @@
                     text-align: center;
                     width: 100%;
                 }
+                .descriptions {
+                    margin-top: 300px;
+                }
                 .ryt {
                     align-content: center;
                     float: left;
@@ -351,7 +354,7 @@
                     transform: scale(.5);
                 }
                 .descriptions {
-                    margin-top: 500px;
+                    margin-top: 400px;
                 }
             }
             /* ABOVE AND BEYOND */
