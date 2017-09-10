@@ -635,10 +635,12 @@ fieldset {
 :-ms-input-placeholder {
     color: #888;
 }
+
 #asterisk {
     padding: 0 10px;
     width: 70%;
 }
+
 #asterisk p {
     font-size: 120%;
 }

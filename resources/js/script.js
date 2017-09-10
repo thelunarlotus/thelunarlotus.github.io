@@ -42,6 +42,12 @@ $(document).ready(function () {
         }, 1000);
     });
 
+    $('.book-now').click(function () {
+        $('html, body').animate({
+            scrollTop: $("#contact").offset().top
+        }, 1000);
+    });
+
     /*MOBILE NAVIGATION*/
     $('.mobile-nav-icon').click(function () {
         var nav = $('.main-nav');
