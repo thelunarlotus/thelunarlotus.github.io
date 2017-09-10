@@ -121,6 +121,9 @@
                     margin-top: 0;
                     padding: 0;
                 }
+                #asterisk {
+                    margin-top: -200px;
+                }
             }
             /* SMALL PHONES TO SMALL TABLETS */
             
