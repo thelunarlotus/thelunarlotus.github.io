@@ -284,16 +284,14 @@
                     width: 100%;
                 }
                 .descriptions {
-                    margin-top: 300px;
+                    margin-top: 400px;
                 }
                 .ryt {
                     align-content: center;
                     float: left;
                 }
                 .calendar-image embed {
-                    left: 50%;
-                    margin-left: -35%;
-                    width: 70%;
+                    display: none;
                 }
                 .contact-image embed {
                     left: 50%;
