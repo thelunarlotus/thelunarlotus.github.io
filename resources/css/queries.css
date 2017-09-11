@@ -122,7 +122,8 @@
                     padding: 0;
                 }
                 #asterisk {
-                    top: -200px;
+                    
+                    position: absolute;
                 }
             }
             /* SMALL PHONES TO SMALL TABLETS */
