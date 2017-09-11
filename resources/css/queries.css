@@ -78,7 +78,7 @@
                 }
                 .descriptions {
                     float: left;
-                    margin-top: 100px;
+                    margin-top: 300px;
                     padding: 0;
                     text-align: center;
                     width: 100%;
@@ -207,7 +207,7 @@
                 }
                 .descriptions {
                     float: left;
-                    margin-top: 100px;
+                    margin-top: 200px;
                     padding: 0;
                     text-align: center;
                     width: 100%;
@@ -284,7 +284,7 @@
                     width: 100%;
                 }
                 .descriptions {
-                    margin-top: 150px;
+                    margin-top: 300px;
                 }
                 .ryt {
                     align-content: center;
@@ -339,7 +339,7 @@
                     margin-top: 10px;
                 }
                 .descriptions {
-                    margin-top: 150px;
+                    margin-top: 200px;
                 }
                 .schedule img {
                     transform: scale(.5);
