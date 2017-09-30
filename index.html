@@ -47,6 +47,12 @@
 
 <body>
     <header>
+        <div id="loader-wrapper">
+            <div id="loader"></div>
+            <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+        </div>
+
         <nav>
             <div class="row">
                 <a href="#home" class="home-button"><img src="resources/img/logo.png" alt="Header Logo" class="logo"></a>
@@ -55,7 +61,7 @@
                     <li><a href="#about" class="about-button">About</a></li>
                     <li><a href="#calendar" class="calendar-button">Calendar</a></li>
                     <li><a href="#contact" class="contact-button">Contact</a></li>
-                    <li><a href="#contact" class="book-now">Book Now</a></li>
+                    <li class="book-now"><a href="#contact" id="cta">Book Now</a></li>
                     <li><a href="https://www.facebook.com/mgerhardyoga/" target="_blank"><i class="ion-social-facebook icon-nav"></i></a></li>
                     <li><a href="https://www.linkedin.com/in/megan-gerhard-846142101/" target="_blank"><i class="ion-social-linkedin icon-nav"></i></a></li>
                     <li><a href="https://www.instagram.com/meggzz326/" target="_blank"><i class="ion-social-instagram icon-nav"></i></a></li>
@@ -64,58 +70,53 @@
             </div>
         </nav>
 
-        <div id="loader-wrapper">
-            <div id="loader"></div>
-
-            <div class="loader-section section-left"></div>
-            <div class="loader-section section-right"></div>
-        </div>
-
-        <div class="home-image">
+        <div class="col span-1-of-3"></div>
+        <div class="col span-1-of-3 home-image">
             <embed src="resources/css/img/home-lockup.svg">
         </div>
+        <div class="col span-1-of-3"></div>
     </header>
 
-    <section id="about">
-        <div class="about-image">
+    <section class="section" id="about">
+        <div class="col span-1-of-2 about-image">
             <embed src="resources/css/img/about-lockup.svg">
         </div>
-        <div class="col span-1-of-2 box"></div>
-        <div class="col span-1-of-2 box bio">
-            <a href="https://www.yogaalliance.org/TeacherPublicProfile?tid=119363" target="_blank"><img class="ryt" src="resources/img/RYT-icon.png" /></a>
-            <p>I have always had a passion for health and wellness. I have always valued the importance of proper nutrition and treating the body with love and care through natural methods. I have a Bachelor of Science in Exercise Science, with a concentration in Exercise Physiology. I am also an ACSM Certified Personal Trainer. I found my calling during my own personal studies on healing the mind and body and received my 200-hr certification through YogaWorks in April 2015. I practice and teache a vinyasa flow-style class and specialize in arm balancing and inversions. I always enjoy a challenge and encourage my students to take every opportunity to try new things as well. I believe that by taking these opportunities, students will discover more about themselves and gain new levels of strength and wisdom through their own practice. I am very excited to share my passion with all of my students; from first-time yogis, to those who have been doing yoga for many years. All of my classes are open-level, with modifications for all skill levels.
-            </p>
-        </div>
-    </section>
-
-    <section id="calendar">
-        <div class="calendar-image">
-            <embed src="resources/css/img/calendar-lockup.svg">
-        </div>
-        <div class="row">
-            <div class="col span-1-of-2 box"></div>
-            <div class="col span-1-of-2 schedule">
-                <img src="resources/img/schedule.jpg" />
+        <div class="col span-1-of-2 bio">
+            <div class="row ryt-icon">
+                <a href="https://www.yogaalliance.org/TeacherPublicProfile?tid=119363" target="_blank"><img class="ryt" src="resources/img/RYT-icon.png" /></a>
+            </div>
+            <div class="row">
+                <p>I have always had a passion for health and wellness. I have always valued the importance of proper nutrition and treating the body with love and care through natural methods. I have a Bachelor of Science in Exercise Science, with a concentration in Exercise Physiology. I am also an ACSM Certified Personal Trainer. I found my calling during my own personal studies on healing the mind and body and received my 200-hr certification through YogaWorks in April 2015. I practice and teache a vinyasa flow-style class and specialize in arm balancing and inversions. I always enjoy a challenge and encourage my students to take every opportunity to try new things as well. I believe that by taking these opportunities, students will discover more about themselves and gain new levels of strength and wisdom through their own practice. I am very excited to share my passion with all of my students; from first-time yogis, to those who have been doing yoga for many years. All of my classes are open-level, with modifications for all skill levels.
+                </p>
             </div>
         </div>
-        <ul class="descriptions">
-            <li class="row">
-                <p><em>Vinyasa:</em> A perfect balance of strength and stretch for upper body, lower body, and core. Designed to strengthen and improve flexibility in both the body and the mind. Connecting breath with movement, this flow includes sun salutations, external and neutral poses, inversions, and balancing. This style is alignment based and open to all levels. Modifications and additional challenges always offered.</p>
-            </li>
-            <li class="row">
-                <p><em>Restorative:</em> Frees the body from the tension and stress of everyday life. Restorative yoga incorporates gentle poses to stretch the body and open the mind. This style is suitable for all levels, including anyone with restricted movement or coming back from an injury. Also great for prenatal.</p>
-            </li>
-            <li class="row">
-                <p><em>Meditation:</em> Sitting or lying down, this is a fully-guided practice of mental and physical healing, including breathwork to calm the mind and body. Different breathing techniques will be introduced to find peace and tranquility in stillness. Open to all levels.</p>
-            </li>
-        </ul>
     </section>
 
-    <section id="contact">
-        <div class="contact-image">
+    <section class="section" id="calendar">
+        <div class="col span-1-of-2 calendar-image">
+            <embed src="resources/css/img/calendar-lockup.svg">
+        </div>
+        <div class="col span-2-of-2 schedule">
+            <img src="resources/img/schedule.jpg" />
+            <ul class="descriptions">
+                <li class="row">
+                    <p><em>Vinyasa:</em> A perfect balance of strength and stretch for upper body, lower body, and core. Designed to strengthen and improve flexibility in both the body and the mind. Connecting breath with movement, this flow includes sun salutations, external and neutral poses, inversions, and balancing. This style is alignment based and open to all levels. Modifications and additional challenges always offered.</p>
+                </li>
+                <li class="row">
+                    <p><em>Restorative:</em> Frees the body from the tension and stress of everyday life. Restorative yoga incorporates gentle poses to stretch the body and open the mind. This style is suitable for all levels, including anyone with restricted movement or coming back from an injury. Also great for prenatal.</p>
+                </li>
+                <li class="row">
+                    <p><em>Meditation:</em> Sitting or lying down, this is a fully-guided practice of mental and physical healing, including breathwork to calm the mind and body. Different breathing techniques will be introduced to find peace and tranquility in stillness. Open to all levels.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section" id="contact">
+        <div class="col span-2-of-3 contact-image">
             <embed src="resources/css/img/contact-lockup.svg">
         </div>
-        <div class="form-container">
+        <div class="col span-1-of-3 form-container">
             <form id="contact-form" action="//formspree.io/megan.gerhard326@gmail.com" method="post">
                 <input type="text" name="Name" placeholder="Name" required>
                 <input type="email" name="Email" placeholder="Email" required>

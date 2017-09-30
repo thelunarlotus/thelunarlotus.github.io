@@ -58,6 +58,20 @@ p {
 
 /*MAIN NAVIGATION*/
 
+#cta {
+    border: 2px solid #8e44ad;
+    border-radius: 4px;
+    padding: 8px 10px;
+}
+
+
+#cta:hover,
+#cta:active {
+    background-color: #8e44ad;
+    color: white;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
 .icon-nav {
     color: #8e44ad;
     vertical-align: middle;
@@ -136,7 +150,7 @@ p {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 9998;
+    z-index: 9000;
 }
 
 .sticky .logo {
@@ -198,7 +212,7 @@ p {
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 1000;
+    z-index: 9998;
 }
 
 #loader {
@@ -216,7 +230,7 @@ p {
     /* Chrome, Opera 15+, Safari 5+ */
     animation: spin 2s linear infinite;
     /* Chrome, Firefox 16+, IE 10+, Opera */
-    z-index: 1001;
+    z-index: 9999;
 }
 
 #loader:before {
@@ -476,9 +490,9 @@ p {
 
 .descriptions p {
     color: #8e44ad;
-    font-size: 60%;
+    font-size: 82%;
     font-weight: 700;
-    line-height: 1;
+    line-height: 1.2;
     margin-top: 10px;
 }
 
@@ -488,6 +502,7 @@ p {
 #contact {
     background-color: #8e44ad;
     height: 100vh;
+    overflow: hidden;
     padding: 0 0;
     width: 100%;
 }
