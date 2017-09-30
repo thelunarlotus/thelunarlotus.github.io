@@ -88,6 +88,7 @@
         width: 100%;
     }
     .bio p {
+        line-height: 1.2;
         text-align: center;
     }
     .ryt-icon {
@@ -166,5 +167,155 @@
     }
     #asterisk p {
         text-align: center;
+    }
+}
+
+/* iPhones --> */
+
+@media (max-width: 320px) {
+    #cta {
+        border: none;
+        padding: 10px 0;
+    }
+    .main-nav {
+        background-color: #ecf0f1;
+        display: none;
+        float: left;
+        margin-top: 35px;
+        margin-left: 25px;
+        padding: 10px;
+        width: 100%;
+    }
+    .main-nav li {
+        display: block;
+    }
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        font-size: 70%;
+        padding: 10px 0;
+    }
+    .mobile-nav-icon {
+        display: inline-block;
+        padding: 20px;
+    }
+    .sticky .main-nav {
+        float: left;
+        margin-top: 10px;
+        margin-left: 25px;
+        padding: 10px;
+        width: 100%;
+    }
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:link {
+        display: block;
+        font-size: 70%;
+        padding: 10px 0;
+    }
+    .sticky .mobile-nav-icon {
+        margin-top: 10px;
+    }
+    .sticky .logo {
+        float: left;
+        height: 80px;
+        margin: 10px 10px;
+        width: auto;
+    }
+    .home-image embed {
+        float: none;
+        height: 100%;
+        width: 80%;
+    }
+    #about {
+        padding: 16px 16px;
+    }
+    .bio {
+        float: none;
+        width: 100%;
+    }
+    .bio p {
+        font-size: 70%;
+        line-height: 1.2;
+        text-align: center;
+    }
+    .ryt-icon {
+        width: 25%;
+    }
+    .ryt {
+        margin: auto 2px;
+        width: 100%;
+    }
+    .about-image {
+        display: none;
+    }
+    .schedule {
+        float: none;
+    }
+    .schedule img {
+        margin: auto;
+        margin-top: 30px;
+        right: auto;
+        top: 0;
+        transform: scale(1.0);
+        width: 100%;
+    }
+    .descriptions {
+        float: none;
+        margin: 200px auto;
+        padding: 16px;
+        width: 100%;
+    }
+    .descriptions li {
+        display: inline-block;
+    }
+    .descriptions p {
+        font-size: 60%;
+        line-height: 1;
+        text-align: center;
+    }
+    .calendar-image {
+        display: none;
+    }
+    .form-container {
+        float: none;
+        margin: auto;
+        margin-top: 0px;
+        position: absolute;
+        right: auto;
+        width: 100%;
+    }
+    .contact-image {
+        bottom: 0;
+        float: none;
+        margin: auto;
+        overflow: hidden;
+        width: 100%;
+    }
+    .contact-image embed {
+        float: none;
+        left: 25%;
+        margin: auto;
+        width: 50%;
+    }
+    #asterisk {
+        padding: 24px;
+        position: absolute;
+        top: 40px;
+        width: 100%;
+    }
+    #asterisk p {
+        font-size: 70%;
+        text-align: center;
+    }
+    .address a {
+        font-size: 70%;
+        letter-spacing: 5px;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: color 0.3s ease-in-out;
+    }
+    footer {
+        padding: 14px;
+        width: 100%;
     }
 }
