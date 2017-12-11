@@ -458,28 +458,38 @@ p {
     width: 50%;
 }
 
-.schedule {
+.announcement {
+    color: #8e44ad;
     float: right;
     margin: 0;
-    padding: 0;
+    padding-right: 40px;
+    padding-top: 100px;
     right: 0;
-    width: 100%;
+    width: 55%;
 }
 
-.schedule img {
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    right: -6%;
-    transform: scale(.75);
-    top: -6%;
-    width: 70%;
+.buttons {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.buttons li {
+    display: inline-block;
+    margin-right: 20px;
+    letter-spacing: 2px;
+    transform: scale(1.0);
+}
+
+.buttons a {
+    color: #8e44ad;
+    font-weight: 800;
+    text-decoration: none;
 }
 
 .descriptions {
     float: right;
     padding-right: 40px;
-    margin-top: 600px;
+    margin-top: 200px;
     width: 55%;
 }
 
